@@ -1,0 +1,14 @@
+{
+  "name": "figma-plugin-proxy",
+  "version": "1.0.0",
+  "main": "proxy-server.js",
+  "scripts": {
+    "proxy": "node proxy-server.js",
+    "headless": "node headless-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^21.0.0"
+  }
+}
